@@ -18,6 +18,6 @@ public:
         a = (a == NULL) ? headB : a->next;
         b = (b == NULL) ? headA : b->next;
     }
-    return b; // either intersection node or NULL
+    return a; // either intersection node or NULL
 }
 };
