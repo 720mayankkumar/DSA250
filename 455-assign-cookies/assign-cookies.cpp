@@ -8,11 +8,9 @@ public:
         while (child < g.size() && cookie < s.size()) {
             if (s[cookie] >= g[child]) {
                 child++;
-                cookie++;
-            } else {
-                cookie++;
             }
+            cookie++;
         }
-        return child;
-    }
-};
+            return child;
+        }
+    };
